@@ -28,12 +28,6 @@
     </nav>
   </header>
 
-  <!-- About -->
-  <section id="about">
-    <h2>About Me</h2>
-    <img src="profile.jpg" alt="My Profile" class="profile">
-    <p>Hi, I am [Your Name]. I write blogs and build websites. Replace this text with your own introduction.</p>
-  </section>
 
   <!-- Articles -->
 <!--
@@ -151,14 +145,70 @@ This is a lightweight, responsive article template optimized for readability and
 </body>
 </html>
 
+<!--
+Save this file as `about.html` and upload to your GitHub repo `InfoWorld-uk`.
+Place in the repo root and link from your homepage (index.html).
+Replace AUTHOR_NAME and CONTACT_EMAIL with your details.
+-->
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>About — InfoWorld</title>
+  <meta name="description" content="About InfoWorld: a knowledge hub for readers in the UK & USA covering technology, earning, lifestyle, education and career growth.">
+  <meta name="theme-color" content="#0f172a">
+  <style>
+    :root{--bg:#f8fafc;--card:#ffffff;--muted:#64748b}
+    *{box-sizing:border-box}
+    body{margin:0;font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, Arial;background:var(--bg);color:#0f172a}
+    .container{max-width:900px;margin:36px auto;padding:20px}
+    .card{background:var(--card);padding:28px;border-radius:12px;box-shadow:0 6px 20px rgba(2,6,23,0.06)}
+    header{display:flex;align-items:center;justify-content:space-between}
+    .brand{font-weight:700;font-size:20px}
+    h1{margin-top:8px;font-size:26px}
+    p{color:var(--muted);line-height:1.7}
+    .grid{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:18px}
+    .badge{display:inline-block;padding:6px 10px;border-radius:8px;background:#eef2ff;font-weight:600}
+    footer{margin-top:20px;color:var(--muted);font-size:14px}
+    @media (max-width:640px){.grid{grid-template-columns:1fr}h1{font-size:22px}}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="card">
+      <header>
+        <div>
+          <div class="brand">InfoWorld</div>
+          <div style="color:var(--muted);font-size:14px">UK & USA • Articles • Knowledge Hub</div>
+        </div>
+        <nav>
+          <a href="/" style="text-decoration:none;color:#0f172a">Home</a>
+        </nav>
+      </header>
 
-  <!-- Contact -->
-  <section id="contact">
-    <h2>Contact Me</h2>
-    <p>Email: <a href="mailto:yourname@email.com">yourname@email.com</a></p>
-    <p>Follow me on 
-      <a href="https://twitter.com/" target="_blank">Twitter</a> | 
-      <a href="https://linkedin.com/" target="_blank">LinkedIn</a>
+      <main>
+        <h1>About InfoWorld</h1>
+        <p>Welcome to <strong>InfoWorld</strong> — a digital knowledge hub tailored for readers in the <strong>United Kingdom</strong> and the <strong>United States</strong>. We publish concise, well-researched articles that help professionals, students, and curious minds make smarter decisions.</p>
+
+        <div class="grid">
+          <div>
+            <h3>Our Focus</h3>
+            <p>We cover practical topics that deliver real value: <strong>Technology, Online Earning, Lifestyle, Education, and Career Growth</strong>. Each article aims to be actionable and up-to-date for UK & USA readers.</p>
+
+            <h3>Why Trust Us?</h3>
+            <p>Every article is written with clarity and fact-checked where possible. We prioritize useful examples, clear steps, and resources so readers can apply the ideas quickly.</p>
+          </div>
+
+          <div>
+            <h3>Our Mission</h3>
+            <p>To become a trusted platform where readers find practical insights, honest guides, and trending updates — all in one place.</p>
+
+            <h3>Get Involved</h3>
+            <p>Have an article idea, feedback, or a collaboration proposal? Email us at: <a href="mailto:contact@infoworld-uk.com">contact@infoworld-uk.com</a> (replace with your contact email).</p>
+          </div>
+        </div>
+  
     </p>
   </section>
 
