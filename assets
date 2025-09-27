@@ -5,3 +5,8 @@ InfoWorld-uk/
       ├─ background-pattern.jpg        ← Full page background
       ├─ ai-tools-2025.jpg           ← Hero image for AI Tools article
       └─ online-earning-uk-usa.jpg  ← Hero image for Online Earning article
+<article class="card">
+  <h1>Top Online Earning Methods for UK & USA in 2025</h1>
+  <img src="/assets/online-earning-uk-usa.jpg" alt="Online Earning UK USA" class="hero"/>
+  <p>Learn the best online earning methods for UK & USA residents in 2025. Explore freelancing, remote jobs, and passive income streams.</p>
+</article>
