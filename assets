@@ -1,0 +1,7 @@
+InfoWorld-uk/
+ ├─ index.html
+ ├─ about.html
+ └─ assets/
+      ├─ background-pattern.jpg        ← Full page background
+      ├─ ai-tools-2025.jpg           ← Hero image for AI Tools article
+      └─ online-earning-uk-usa.jpg  ← Hero image for Online Earning article
